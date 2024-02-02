@@ -1,8 +1,6 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +56,7 @@ footer {
   justify-content: space-between;
 }
 
-section{
+section {
   /* background-image: radial-gradient(#971042 0.5px, #fff 0.5px);
   background-size: 10px 10px; */
   background-color: rgb(243, 247, 249);
@@ -115,7 +113,7 @@ section .title::after {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .navbar .logo a span {
   color: rgb(21, 183, 180);
@@ -137,13 +135,13 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
 }
 
 .navbar.sticky .menu li a:hover {
   color: rgb(168, 159, 159);
 }
-.navbar.sticky .menu li a{
+.navbar.sticky .menu li a {
   color: white;
 }
 /* menu btn styling */
@@ -162,7 +160,7 @@ section .title::after {
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -180,7 +178,6 @@ section .title::after {
 .scroll-up-btn:hover {
   filter: brightness(90%);
 }
-
 
 /* home section styling  start*/
 /* bgc considered */
@@ -207,8 +204,6 @@ section .title::after {
   font-size: 27px;
 }
 
-
-
 .home .home-content .text-2 {
   font-size: 58px;
   font-weight: 600;
@@ -219,7 +214,7 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   font-weight: 500;
 }
 .home .home-content a {
@@ -231,25 +226,24 @@ section .title::after {
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 1px solid rgb(28, 189, 203);;
+  border: 1px solid rgb(28, 189, 203);
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   background: none;
 }
 
 /* about section styling */
-.about{
-/* border: 1px solid black;
+.about {
+  /* border: 1px solid black;
 background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px); */
-background-color: rgb(219, 237, 242);
-border-bottom: 2px solid black;
-/* background-size: 10px 10px; */
+  background-color: rgb(219, 237, 242);
+  border-bottom: 2px solid black;
+  /* background-size: 10px 10px; */
 }
 .about .title::after {
   content: "who I am";
- 
 }
 .about .about-content .left {
   width: 45%;
@@ -270,7 +264,6 @@ border-bottom: 2px solid black;
 }
 .about .about-content .right .text span {
   color: rgb(63, 166, 197);
-  
 }
 .about .about-content .right p {
   text-align: justify;
@@ -284,25 +277,24 @@ border-bottom: 2px solid black;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid rgb(28, 189, 203);;
+  border: 1px solid rgb(28, 189, 203);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   background: none;
 }
 .about .title::after {
   /* border: 1px solid red; */
-  background-image: url("");  
-  color: rgb(63, 166, 197);;
+  background-image: url("");
+  color: rgb(63, 166, 197);
 }
 
 /* statistics section styling */
 .services,
 .project {
   color: BLACK;
-  background: #FAEBD7;
- 
+  background: #faebd7;
 }
 .services .title::before,
 .project .title::before {
@@ -314,12 +306,12 @@ border-bottom: 2px solid black;
   content: "what i done";
 }
 .services .serv-content .card {
-  
   width: calc(33% - 20px);
   background: white;
   text-align: center;
   border-radius: 12px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -330,16 +322,14 @@ border-bottom: 2px solid black;
   /* change*/
 }
 .services .serv-content .card .box {
- 
   transition: all 0.3s ease;
-  
 }
 .services .serv-content .card:hover .box {
   transform: scale(1.05);
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -362,44 +352,40 @@ border-bottom: 2px solid black;
   /* border: 5px solid rgb(28, 189, 203);; */
   transition: all 0.3s ease;
 }
-#html_img img{
+#html_img img {
   margin-top: 20px;
   height: 100px;
   width: 130px;
 }
-#aws_img img{
+#aws_img img {
   height: 100px;
   width: 120px;
   margin-top: 35px;
 }
 
-#js_img img{
+#js_img img {
   margin-top: 20px;
   height: 105px;
   width: 130px;
 }
 
-#java_img img{
+#java_img img {
   margin-top: 30px;
   height: 80px;
   width: 150px;
 }
 
-
-
-#spring_img img{
-  margin:auto;
+#spring_img img {
+  margin: auto;
   /* height: 255px; */
   width: 180px;
-
 }
 
-#hibernate_img{
-  
-  size:300px;
+#hibernate_img {
+  size: 300px;
 }
 
-#github_img{
+#github_img {
   height: 80px;
 }
 .skills .title::after {
@@ -415,32 +401,29 @@ border-bottom: 2px solid black;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 20px;
   /* padding-left: 70px; */
- 
 }
 .skills .skills-content .left .text {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
-  
 }
 .skills .skills-content .left p {
   text-align: justify;
 }
 .skills .skills-content .left a {
- 
   display: inline-block;
-  background: rgb(28, 189, 203);;
+  background: rgb(28, 189, 203);
   color: rgb(209, 239, 240);
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid rgb(28, 189, 203);;
+  border: 1px solid rgb(28, 189, 203);
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -470,7 +453,6 @@ border-bottom: 2px solid black;
   left: 0;
   top: 0;
   background: rgb(28, 189, 203);
- 
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -497,7 +479,8 @@ border-bottom: 2px solid black;
   height: 50%;
   background: white;
   border-radius: 12px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   padding: 25px 35px;
   text-align: center;
   font-style: italic;
@@ -524,7 +507,6 @@ border-bottom: 2px solid black;
   transform: scale(1.05);
 }
 .project .carousel .card .text {
-
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -542,9 +524,9 @@ border-bottom: 2px solid black;
 .repo-div {
   display: flex;
   width: 35%;
-  border: 1px solid rgb(28, 189, 203);;
-  border-radius: 8PX;
-  color: rgb(28, 189, 203);;
+  border: 1px solid rgb(28, 189, 203);
+  border-radius: 8px;
+  color: rgb(28, 189, 203);
   justify-content: center;
   align-items: center;
 }
@@ -552,7 +534,7 @@ border-bottom: 2px solid black;
 .demo-div {
   display: flex;
   width: 35%;
-  border: 1px solid rgb(28, 189, 203);;
+  border: 1px solid rgb(28, 189, 203);
   border-radius: 8px;
   justify-content: center;
   align-items: center;
@@ -593,7 +575,7 @@ border-bottom: 2px solid black;
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid rgb(28, 189, 203); !important;
+  border: 2px solid rgb(28, 189, 203) !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -602,50 +584,45 @@ border-bottom: 2px solid black;
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: rgb(28, 189, 203); !important;
+  background: rgb(28, 189, 203) !important;
 }
 .skills-images {
   width: 120px;
   height: 120px;
 }
 
-
-
-
 /* calander */
 
-#githubCommits{
+#githubCommits {
   margin: auto;
- 
+
   font-size: larger;
   font-weight: bolder;
 }
 
-.calendarDiv{
+.calendarDiv {
   /* border: 10px solid red; */
   text-align: center;
   padding-bottom: 4rem;
-
 }
-.calendarDiv h1{
+.calendarDiv h1 {
   font-size: 5rem;
   padding: 2rem;
 }
 
-.calendar{
+.calendar {
   width: 85%;
   margin: auto;
-  background-color: #F7F7F7;
-  border: 1px solid #2B313D;
+  background-color: #f7f7f7;
+  border: 1px solid #2b313d;
   padding: 4rem;
   border: none;
-  
 }
 
 /* contact section styling */
 
-.material-symbols-outlined{
-  background-color: rgb(28, 189, 203);;
+.material-symbols-outlined {
+  background-color: rgb(28, 189, 203);
   color: #fff;
 }
 .contact .title::after {
@@ -675,7 +652,7 @@ border-bottom: 2px solid black;
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -743,11 +720,11 @@ border-bottom: 2px solid black;
   cursor: pointer;
   flex-wrap: nowrap;
   background: rgb(25, 31, 115);
-  border: 1px solid rgb(28, 189, 203);;
+  border: 1px solid rgb(28, 189, 203);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   background: none;
 }
 /* footer section styling */
@@ -758,7 +735,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: rgb(28, 189, 203);;
+  color: rgb(28, 189, 203);
   text-decoration: none;
 }
 footer span a:hover {
@@ -767,28 +744,20 @@ footer span a:hover {
 
 /* ---------------- experience section css start ----------------------------- */
 
-.setMargin{
+.setMargin {
   text-align: center;
   font-size: large;
   font-family: "Poppins", sans-serif;
 }
 
-
-
 /* ---------------- experience section css end ----------------------------- */
-
-
-
-
 
 /* ---------------- project section css start ----------------------------- */
 
-
 #projects > h1 {
   border: 1px solid black;
- text-align: center;
+  text-align: center;
   margin-bottom: 50px;
-
 }
 
 #proj2 {
@@ -846,22 +815,20 @@ footer span a:hover {
 }
 /* -------------------------- project section css end ---------------------------- */
 
-
-
 /* responsive media query start */
 
 @media (max-width: 1104px) {
-  .contact{
+  .contact {
     padding-bottom: 450px;
   }
   .about .about-content .left img {
     height: 350px;
     width: 350px;
   }
-  footer{
+  footer {
     margin-top: -470px;
   }
-  .skills{
+  .skills {
     padding-bottom: 0px;
   }
   .skills .skills-content .column {
@@ -874,7 +841,7 @@ footer span a:hover {
     align-items: center;
     /* margin-left: 100px; */
     /* padding-left: 70px; */
-}
+  }
 }
 
 @media (max-width: 991px) {
@@ -944,11 +911,9 @@ footer span a:hover {
   }
   .skills .skills-content .column,
   .contact .contact-content .column {
-    
     width: 100%;
     margin-bottom: 35px;
   }
-
 }
 
 /* @media (max-width: 690px)  */
@@ -977,11 +942,11 @@ footer span a:hover {
     background-color: transparent;
     border-radius: 5px 20px;
     font-size: 10px;
-    padding: 1.%;
+    padding: 1%;
   }
   .calendar {
     font-family: Helvetica, arial;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 3px;
     min-height: 243px;
     text-align: center;
@@ -996,11 +961,9 @@ footer span a:hover {
     width: 350px;
     margin-left: -44px;
   }
-
 }
 
 @media (max-width: 667px) {
- 
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -1029,15 +992,15 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   } */
-   .scroll-up-btn {
-  /* right: 15px; */
-  left: 500px;
-  bottom: 15px;
-  height: 38px;
-  width: 35px;
-  font-size: 23px;
-  line-height: 38px;
-} 
+  .scroll-up-btn {
+    /* right: 15px; */
+    left: 500px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+  }
 
   /* changes */
 
@@ -1048,41 +1011,41 @@ footer span a:hover {
     padding: 30px 0;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
-} 
+  }
 
-.calendarDiv h1 {
-  font-size: 2rem;
-  padding: 2rem;
-}
-img.git-stats{
-  width: 200px;
-}
-.skills .skills-content .column {
- margin-left: 20px;
- }
- #proj2 {
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
-  text-align: center;
-  margin: auto;
-  margin-top: 100px;
-}
-table.ContributionCalendar-grid.js-calendar-graph-table{
-  width: 450px;
-}
-#aws_img img {
-  height: 100px;
-  width: 120px;
-  margin-top: 35px;
-  margin-left: 20px;
-}
+  .calendarDiv h1 {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  img.git-stats {
+    width: 200px;
+  }
+  .skills .skills-content .column {
+    margin-left: 20px;
+  }
+  #proj2 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+  table.ContributionCalendar-grid.js-calendar-graph-table {
+    width: 450px;
+  }
+  #aws_img img {
+    height: 100px;
+    width: 120px;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
 
-.contact{
-  padding-bottom: 10px;
-}
-footer{
-  margin-top: 0px;
-}
+  .contact {
+    padding-bottom: 10px;
+  }
+  footer {
+    margin-top: 0px;
+  }
 }
