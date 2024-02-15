@@ -249,10 +249,14 @@ background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px); */
   width: 45%;
 }
 .about .about-content .left img {
-  height: 600px;
+  /* height: 600px;
   width: 400px;
   object-fit: cover;
-  border-radius: 200px 200px;
+  border-radius: 200px 200px; */
+  height: 429px;
+  width: 360px;
+  object-fit: cover;
+  border-radius: 65%;
 }
 .about .about-content .right {
   width: 55%;
@@ -400,6 +404,7 @@ background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px); */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 20px;
+  justify-items: center;
   /* padding-left: 70px; */
 }
 .skills .skills-content .left .text {
@@ -1032,6 +1037,7 @@ footer span a:hover {
     text-align: center;
     margin: auto;
     margin-top: 100px;
+    justify-items: center;
   }
   table.ContributionCalendar-grid.js-calendar-graph-table {
     width: 450px;
